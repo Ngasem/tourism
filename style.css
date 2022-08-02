@@ -11,6 +11,9 @@ dl {
   margin: 0;
   color: white;
 }
+main {
+  background-color: #6C757D;
+}
 #homeTitle{
   font-family: 'Lobster', cursive;
 }
@@ -51,10 +54,38 @@ dl {
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .4);
+}
+.tentang {
+  background-color: #C4CFB5;
 }
 
-.bgImage>div {
+.kataDukuh {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.kataDukuh>div {
+  padding: 0 10px;
+}
+.potret {
+  width: 200px;
+  height: auto;
+}
+.petikContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.petik {
+  font-size: 50px;
+  height: 20px;
+}
+.dukuhName {
+  color: #BBC3C9;
+}
+.will-fadeIn>div {
   max-width: 60%;
   margin: auto;
 }
