@@ -44,6 +44,10 @@ main {
 }
 .dancer {
   background-image: url('images/IMG_20220713_124239.jpg');
+  background-position: top !important;
+}
+.tebingTutup {
+  background-image: url('images/WhatsApp\ Image\ 2022-08-03\ at\ 8.58.35\ PM.jpeg');
 }
 
 .batas {
@@ -93,6 +97,29 @@ main {
 .dukuhName {
   color: #BBC3C9;
 }
+.description {
+  text-align: left;
+  padding: 10px;
+  background-color: rgba(33, 37, 41, 0.4);
+}
+.description>p {
+  text-indent: 40px;
+}
+.more {
+  float: right;
+  fill: #BBC3C9;
+  padding: 10px 40px;
+  background-color: rgba(33, 37, 41, 0.6);
+  border: 1px solid #BBC3C9;
+  transition: all 1s;
+}
+.more:hover {
+  background-color: rgba(33, 37, 41, 1);
+  fill: white;
+  border: 1px solid white;
+}
+
+
 .will-fadeIn>div {
   max-width: 60%;
   margin: auto;
