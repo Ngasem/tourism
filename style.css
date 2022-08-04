@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  /* outline: 1px solid limegreen !important; */
+  outline: 1px solid limegreen !important;
   
 }
 
@@ -49,9 +49,12 @@ main {
 .tebingTutup {
   background-image: url('images/tebingTutup.jpeg');
 }
-
 .batas {
   background-image: url('images/batasdusunmid.jpg');
+}
+.dukuhBackground {
+  background-image: url('images/dukuhNgasemBackgroundNight.jpg');
+  background-position: bottom !important;
 }
 .batas h2 {
   font-family: 'EB Garamond', serif;
@@ -72,7 +75,25 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background-color: rgba(33, 37, 41, 0.4);
 }
+.tentangKita {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+  background-color: rgba(33, 37, 41, 0.4);
+}
+.tentangKita p {
+  text-indent: 40px;
+}
+.subunitNgasem {
+  width: 400px;
+  height: auto;
+}
+
 @media only screen and (max-width: 768px) {
   .kataDukuh {
     flex-direction: column;
@@ -98,7 +119,7 @@ main {
   color: #BBC3C9;
 }
 .description {
-  text-align: left;
+  text-align: justify;
   padding: 10px;
   background-color: rgba(33, 37, 41, 0.4);
 }
