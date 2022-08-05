@@ -64,7 +64,7 @@ window.addEventListener('scroll', function() {
     if (scrollpos >= header_height) { add_class_on_scroll() }
     else { remove_class_on_scroll() }
 
-    console.log(scrollpos)
+    
 })
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
