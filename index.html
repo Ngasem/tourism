@@ -32,8 +32,30 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link" href="#home">Home</a>
-                    <a class="nav-link" href="#">Destination</a>
-                    <a class="nav-link" href="#">About us</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Tentang Ngasem
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#petaWilayah">Peta Wilayah</a></li>
+                            <li><a class="dropdown-item" href="#tentangNgasem">Deskripsi</a></li>
+                            <li><a class="dropdown-item" href="#prakataDukuh">Prakata Dukuh</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Potensi Wisata
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#potensiWisataTebing">Tebing</a></li>
+                            <li><a class="dropdown-item" href="#potensiWisataRasulan">Rasulan</a></li>
+                        </ul>
+                    </li>
+                    <a class="nav-link" href="#aboutUs">About us</a>
                 </div>
             </div>
         </div>
@@ -46,7 +68,7 @@
                 <h1>Padukuhan Ngasem</h1>
             </div>
         </div>
-        <div class="bgImage batas d-flex flex-column justify-content-center will-fadeIn">
+        <div id="petaWilayah" class="bgImage batas d-flex flex-column justify-content-center will-fadeIn">
             <div>
                 <h2>Peta Wilayah</h2>
             </div>
@@ -54,7 +76,7 @@
 
             </div>
         </div>
-        <div class="bgImage  d-flex flex-column justify-content-center will-fadeIn">
+        <div id="tentangNgasem" class="bgImage  d-flex flex-column justify-content-center will-fadeIn">
             <div>
                 <h2>Padukuhan Ngasem</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione ipsum, a exercitationem
@@ -66,7 +88,8 @@
                 </p>
             </div>
         </div>
-        <div class="bgImage dukuhBackground  d-flex align-items-center justify-content-center will-fadeIn">
+        <div id="prakataDukuh"
+            class="bgImage dukuhBackground  d-flex align-items-center justify-content-center will-fadeIn">
             <div class="kataDukuh">
                 <div>
                     <div class="petikContainer">
@@ -88,7 +111,8 @@
                 <img class="potret" src="images/carter-baran-75IgLbgqRls-unsplash.jpg" alt="Dukuh Ngasem">
             </div>
         </div>
-        <div class="bgImage tebingTutup  d-flex align-items-center justify-content-center will-fadeIn">
+        <div id="potensiWisataTebing"
+            class="bgImage tebingTutup  d-flex align-items-center justify-content-center will-fadeIn">
             <div class="description">
                 <h2>Tebing</h2>
                 <p>Dusun Ngasem merupakan dusun yang memiliki deretan tebing-tebing berbatasan dengan laut. Terdapat
@@ -106,7 +130,8 @@
                 </a>
             </div>
         </div>
-        <div class="bgImage dancer  d-flex align-items-center justify-content-center will-fadeIn">
+        <div id="potensiWisataRasulan"
+            class="bgImage dancer  d-flex align-items-center justify-content-center will-fadeIn">
             <div class="description">
                 <h2>Rasulan</h2>
                 <p>Rasulan merupakan kegiatan tahunan yang dilaksanakan di berbagai daerah di Gunungkidul tidak
@@ -134,9 +159,10 @@
                 </a>
             </div>
         </div>
-        <div class="bgImage  d-flex align-items-center justify-content-center will-fadeIn">
+        <div id="aboutUs" class="bgImage tentangKitaBG d-flex align-items-center justify-content-center will-fadeIn">
             <div class="tentangKita">
-                <img class="subunitNgasem" src="images/subunitNgasem.jpg" alt="Subunit Ngasem">
+                <img class="subunitNgasem" src="images/subunitNgasem/subunitNgasem.jpg" alt="Subunit Ngasem">
+
                 <div>
                     <p>
                         Kami merupakan anggota sub unit KKN-PPM UGM Girisubo 2022 yang ditempatkan di Dusun Ngasem
@@ -180,8 +206,7 @@
             </a>
         </div>
         <div class="pb-3">
-            <span id="current-year" class="text-white-50">&copy; kkn-ppm ugm </span>
-            <script>document.querySelector('#current-year').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+            <span class="text-white-50">&copy; kkn-ppm ugm 2022 </span>
         </div>
     </footer>
 
