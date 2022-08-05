@@ -43,7 +43,7 @@ main {
   background-image: url('images/IMG_1560.jpg');
 }
 .dancer {
-  background-image: url('images/IMG_20220713_124239.jpg');
+  background-image: url('images/ledhek.jpg');
   background-position: top !important;
 }
 .tebingTutup {
@@ -53,7 +53,7 @@ main {
   background-image: url('images/batasdusunmid.jpg');
 }
 .dukuhBackground {
-  background-image: url('images/dukuhNgasemBackgroundNight.jpg');
+  background-image: url('images/dukuhBgCenter.jpg');
   background-position: bottom !important;
 }
 .tentangKitaBG {
@@ -78,6 +78,7 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding: 10px;
   background-color: rgba(33, 37, 41, 0.4);
 }
 .tentangKita {
