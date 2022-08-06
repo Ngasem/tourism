@@ -59,6 +59,9 @@ main {
 .tentangKitaBG {
   background-image: url('images/tentangkami/cocardKKN.jpg');
 }
+.deskripsi {
+  background-image: url('images/selfieTPA.jpg');
+}
 .batas h2 {
   font-family: 'EB Garamond', serif;
 }
