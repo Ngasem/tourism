@@ -107,6 +107,10 @@ main {
     flex-direction: column;
     padding: 20px;
   }
+  .will-fadeIn>div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 .kataDukuh>div {
   padding: 0 10px;
