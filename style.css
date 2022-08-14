@@ -3,6 +3,9 @@
   /* outline: 1px solid limegreen !important; */
   
 }
+.italic {
+  font-style: italic;
+}
 
 body,
 ul,
@@ -13,6 +16,47 @@ dl {
 }
 main {
   background-color: #6C757D;
+}
+#potencyArticle {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.articleMain {
+  color: black;
+  margin-top: 100px;
+  width: 1000px;
+  max-width: 80%;
+}
+.articleSection {
+  margin-top: 40px;
+  text-align: left;
+}
+.articleSection h2 {
+  font-size: large;
+  font-weight: 600;
+}
+.articleSection p {
+  font-size: medium;
+}
+.articleIMG{
+  margin: 30px 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.articleLS {
+  width: 900px;
+  max-width: 100%;
+  height: auto;
+}
+.articlePT {
+  width: 800px;
+  max-width: 100%;
+  height: auto;
 }
 #homeTitle{
   font-family: 'Lobster', cursive;
