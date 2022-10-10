@@ -165,20 +165,7 @@ article {
   padding: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-  .kataDukuh {
-    flex-direction: column;
-    padding: 20px;
-  }
-  .will-fadeIn>div {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .logo {
-    flex-direction: column;
-    justify-content: space-between;
-  }
-}
+
 .kataDukuh>div {
   padding: 0 10px;
 }
@@ -257,6 +244,22 @@ p {
 #mapNgasem {
   width: 100vw;
   height: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .kataDukuh {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .will-fadeIn>div {
+    max-width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .logo {
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
 .navbar.scrolled {
