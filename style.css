@@ -24,6 +24,10 @@ main {
 article {
   font-family: 'Times New Roman', Times, serif;
 }
+
+#description {
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
 #potencyArticle {
   background-color: white;
   display: flex;
@@ -279,6 +283,7 @@ p {
   -o-animation: fadeInRight .5s ease .4s both;
   animation: fadeInRight .5s ease .4s both;
 }
+
 
 @media (prefers-reduced-motion) {
   .fadeInRight .animated {
